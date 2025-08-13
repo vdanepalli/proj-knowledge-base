@@ -1247,3 +1247,820 @@ def wrap_string(str, n):
 
 ### Asymptotic Notation
 
+
+## CodeSignal - Mastering Algroithms and Data Structures
+
+### Hashing, Dictionaries, Sets
+
+- Hashsets -- near costant lookup, insertions, deletions
+  - characteristics
+    - uniqueness
+    - unordered
+    - complexity -- O(1) average, O(n) worst-case for lookup, insertion, deletion; O(n) space
+      - worst-case applies when there are a lot of collisons
+    - 
+- Hashfunctions, Collisions
+- `ord('A')`
+
+
+```py
+def simple_hash(input_string):
+    summation = sum(ord(ch) for ch in input_string)
+    return summation % 10
+
+
+s = set()
+s.add('item')
+s.remove('item')
+s.clear()
+s1 = s.copy()
+
+list.append()
+
+as_of_now_seconds = time.time()
+```
+
+```py
+intersection = sorted(list(set1 & set2))
+# set -- O(n)
+# sorting -- O(nlogn)
+
+
+def non_repeating_elements(nums): # O(n) TC
+    seen, repeated = set(), set()
+    for num in nums:
+        if num in seen:
+            repeated.add(num)
+        else: 
+            seen.add(num)
+    return list(seen - repeated)
+```
+
+```py
+def unique_elements(list1, list2):
+    set1 = set(list1)
+    set2 = set(list2)
+    unique_to_1 = sorted(list(set1 - set2))
+    unique_to_2 = sorted(list(set2 - set1))
+    return (unique_to_1, unique_to_2)
+```
+
+```py
+def find_anagram_pairs(list_1, list_2): # O(nlogn)
+  sorted_tuples_1 = set(tuple(sorted(word)) for word in list_1)
+  sorted_tuples_2 = set(tuple(sorted(word)) for word in list_2)
+
+  common_tuples = sorted_tuples_1 & sorted_tuples_2
+
+  list_1_output = [word for word in list_1 if tuple(sorted(word)) in common_tuples] # contains anagrams from the first list
+  list_2_output = [word for word in list_2 if tuple(sorted(word)) in common_tuples] # contains anagrams from the second list
+
+  output = []
+  for word1 in list_1_output:
+      for word2 in list_2_output:
+          # traversing every pair of words in filtered lists
+          if tuple(sorted(word1)) == tuple(sorted(word2)):
+              # If words in the pair are anagrams, add them to the output list
+              output.append((word1, word2))
+  return output
+```
+
+```py
+from collections import defaultdict
+def find_anagram_pairs(list_1, list_2):
+  map_1 = defaultdict(list)
+  for word in list_1:
+    sorted_tuple = tuple(sorted(word))
+    map_1[sorted_tuple].append(word)
+  
+  map_2 = defaultdict(list)
+  for word in list_2:
+    sorted_tuple = tuple(sorted(word))
+    map_2[sorted_tuple].appned(word)
+
+  common_tuples = set(map_1.keys()) & set(map_2.keys())
+
+  output = []
+  for a_tuple in common_tuples:
+    for word1 in map_1[a_tuple]:
+      for word2 in map_2[a_tuple]:
+        output.append(word1, word2)
+
+  return output
+```
+
+```py
+def find_unique_string(words):
+    # implement this
+    seen, duplicates = set(), set()
+    for word in words:
+        if word in seen:
+            duplicates.add(word)
+        else:
+            seen.add(word)
+    
+    for word in words[::-1]:
+        if word not in duplicates:
+            return word
+    
+    return ''
+```
+
+```py
+def find_anagram_words(list_1, list_2):
+    s1 = set(tuple(sorted(word)) for word in list_1)
+    s2 = set(tuple(sorted(word)) for word in list_2)
+    
+    common = s1 & s2
+    
+    res = [word for word in list_1 if tuple(sorted(word)) in common]
+    return res
+```
+
+
+<br/><br/>
+
+- Hash tables. Hash maps
+- Collision
+  - Chaining -- LinkedList
+  - Open Addressing -- Probing -- Next available empty slot
+- O(1); O(n) worst case; n is number of keys resulting in collision
+
+```py
+dictionary = {'key':'value1'}
+dictionary['key']
+dictionary.get('key', 'value_if_key_not_exists')
+dictionary['new_key'] = 'new_value'
+del dictionary['old_key']
+```
+
+```py
+def frequent_words_finder(text): # O(N)
+    from collections import defaultdict
+
+    text = text.lower()
+    word_counts = defaultdict(int)
+    word_list = text.split()
+    for word in word_list:
+        word_counts[word] += 1
+    top_three = sorted(word_counts.items(), key=lambda x: x[1], reverse=True)[:3]
+    return top_three
+```
+
+- defaultdict provides a default value for each key that doesn't exist. 
+
+```py
+def password_strength_counter(password):
+    strength = {
+        'length': False,
+        'digit': False,
+        'lowercase': False,
+        'uppercase': False,
+    }
+    if len(password) >= 8:
+        strength['length'] = True
+    for char in password:
+        if char.isdigit():
+            strength['digit'] = True
+        elif char.islower():
+            strength['lowercase'] = True
+        elif char.isupper():
+            strength['uppercase'] = True
+    return strength
+```
+
+```py
+def bonus_calculator(employees):
+    for employee in employees:
+        bonus = 0
+        if employee['role'] == 'developer':
+            bonus = employee['salary'] * 0.1
+        employee['bonus'] = bonus
+    return employees
+```
+
+```py
+def solution(listA):
+    count_dict = {}
+    for element in listA:
+        count_dict[element] = count_dict.get(element, 0) + 1
+        if count_dict[element] > len(listA) // 2:
+            return element
+    return -1
+```
+
+```py
+def keyword_index(docs):
+    words = {}
+    for doc_idx, doc in enumerate(docs):
+        for word_idx, word in enumerate(doc.split()):
+            if words.get(word, {}):
+                if words.get(word, {}).get(doc_idx, 0):
+                    words[word][doc_idx] = words.get(word, {}).get(doc_idx, 0) + 1
+                else:
+                    words[word][doc_idx] = 1
+            else:
+                words[word] = {}
+                words[word][doc_idx] = 1
+    return words
+```
+
+```py
+from collections import defaultdict
+
+def keyword_index(docs):
+    index = defaultdict(lambda: defaultdict(int))
+    for doc_idx, doc in enumerate(docs):
+        for word in doc.split():
+            index[word][doc_idx] += 1
+    return index
+
+# lambda: defaultdict(int) is the custom anonymous function, when called creates a default value. 
+
+def create_default_dict_dict():
+  return defaultdict(int)
+```
+
+
+### Unraveling Recursion through Classic Problems
+
+```py
+def fib(n): 
+   if n <= 1: 
+       return n 
+   else: 
+       return fib(n - 1) + fib(n - 2)
+
+def fib(n, computed={0: 0, 1: 1}):
+    if n not in computed:
+        computed[n] = fib(n - 1, computed) + fib(n - 2, computed)
+    return computed[n]
+```
+
+
+```py
+def arraySum(arr, index=0): 
+   if index == len(arr): 
+       return 0 
+   else:
+       return arr[index] + arraySum(arr, index + 1)
+```
+
+```py
+def factorial(n): 
+   if n == 0 or n == 1: 
+       return 1
+   else:
+       return n * factorial(n - 1)
+```
+
+```py
+def binary_search_iterative(data, target):
+    # We will search in the interval [low, high), where the right border is excluded
+    low = 0
+    high = len(data)
+
+    while high - low > 1: # search until the length of the interval > 1
+        mid = (low + high) // 2
+        if target < data[mid]:
+            high = mid # Continue our search in [low, mid)
+        else:
+            low = mid # Continue our search in [mid, high)
+    return low if data[low] == target else None
+```
+
+```py
+def binary_search_recursive(data, target, low, high):
+    if high - low <= 1:
+        return low if data[low] == target else None
+    mid = (low + high) // 2
+    if target < data[mid]:
+        return binary_search_recursive(data, target, low, mid)
+    else:
+        return binary_search_recursive(data, target, mid, high)
+```
+
+- Continuous functions = limit of f(x) at a from left = right
+
+```py
+# Define the function
+def f(x):
+    return x * x - 2
+
+# Define the binary search function 
+def binary_search(target, left, right, precision):
+    while right - left > precision:
+        mid = (left + right) / 2
+        if f(mid) < target: # If the midpoint value is less than the target...
+            left = mid  # ...update the left boundary to be the midpoint.
+        else:
+            right = mid  # Otherwise, update the right boundary.
+    return left # Return the left boundary of our final, narrow interval.
+
+epsilon = 1e-6
+result = binary_search(0, 1, 2, epsilon)
+print("x for which f(x) is approximately 0:", result)
+
+# Outputs:
+# x for which f(x) is approximately 0: 1.4142131805419922
+```
+
+```py
+import math
+
+# Define the continuous function for the height of the ball at time t 
+def h(t, initial_height, g):
+    return initial_height - (0.5) * g * t**2
+
+# Define the binary search function
+def binary_search(func, initial_height, g, target, left, right, precision):
+    while right - left > precision:
+        mid = (left + right) / 2
+        if func(mid, initial_height, g) < target:
+            right = mid
+        else:
+            left = mid
+    return (left + right) / 2
+
+# Requested precision
+epsilon = 1e-6
+# Constants
+initial_height = 100  # Initial height in meters
+g = 9.81  # acceleration due to gravity
+
+# Time range 
+time_range = [0, 10]
+
+# Call binary_search for h with the target being 0, indicating the hit of the ground
+result = binary_search(h, initial_height, g, 0, time_range[0], time_range[1], epsilon)
+
+print("Time when the ball hits the ground (seconds): ", result)
+```
+
+```py
+import math
+import numpy as np
+
+def f(x):
+    return x**4 - x**2 - 10
+
+def binary_search(func, target, left, right, precision):
+    while np.abs(func(left) - target) > precision and np.abs(func(right) - target) > precision:
+        middle = (left + right) / 2
+        if func(middle) < target:
+            left = middle
+        else:
+            right = middle
+            
+    return middle
+
+epsilon = 1e-6
+target = 50
+start = -5
+end = 5
+
+result = binary_search(f, target, start, end, epsilon)
+print("The value of x for which f(x) is approximately 50 within the interval [" + str(start) + ", " + str(end) + "] is: ", result)
+```
+
+```py
+def f(x):
+    return x**6 - 3 * x**4 + 4 * x**3 - 1
+
+def binary_search(func, target, left, right, epsilon):
+    while right - left > epsilon:
+        middle = (left + right) / 2
+        if func(middle) < target:
+            left = middle
+        else:
+            right = middle        
+    return middle
+
+result = binary_search(f, 0, -5, 5, 1e-6)
+print("The value of x for which f(x) is approximately 0 is: ", result)
+```
+
+```py
+def search_rotated(nums, target):
+    left, right = 0, len(nums) - 1
+    while left <= right:
+        mid = (left + right) // 2
+        if nums[mid] == target:
+            return mid
+        if nums[left] <= nums[mid] and nums[left] <= target < nums[mid]:
+            right = mid - 1
+        elif nums[mid] <= nums[right] and nums[mid] < target <= nums[right]:
+            left = mid + 1
+        elif nums[mid] > nums[right]:
+            left = mid + 1
+        else:
+            right = mid - 1
+    return -1
+```
+
+
+```py
+def search_rotated_simplified(nums, target):
+    left, right = 0, len(nums) - 1
+    while left <= right:
+        mid = (left + right) // 2
+        if nums[mid] == target:
+            return mid
+
+        # Check if the left half is sorted
+        if nums[left] <= nums[mid]:
+            if nums[left] <= target < nums[mid]:
+                right = mid - 1
+            else:
+                left = mid + 1
+        # Otherwise, the right half must be sorted
+        else:
+            if nums[mid] < target <= nums[right]:
+                left = mid + 1
+            else:
+                right = mid - 1
+    return -1
+```
+
+```py
+def get_first_last_pos(nums, target):
+    def binary_search(left, right, find_first):
+        if left <= right:
+            mid = (left + right) // 2
+            if nums[mid] > target or (find_first and target == nums[mid]):
+                return binary_search(left, mid - 1, find_first)
+            else:
+                return binary_search(mid + 1, right, find_first)
+        return left
+
+    first = binary_search(0, len(nums) - 1, True)
+    last = binary_search(0, len(nums) - 1, False) - 1
+    if first <= last:
+        return [first, last]
+    else:
+        return [-1, -1]   
+```
+
+
+```py
+def search_insert(nums, target):
+    nums.append(float('inf'))  # append an infinite element to handle edge case
+    left, right = 0, len(nums)
+    while right - left > 1:
+        mid = (left + right) // 2
+        if nums[mid] <= target:
+            left = mid
+        else:
+            right = mid
+    return left
+```
+
+
+
+
+
+## CodeSignal - Advanced Interview Prep for Senior Engineers in Python
+
+### Advanced Built-In Data Structures and their Usage
+
+- Stacks -- LIFO
+
+```py
+def reverse_string(input_string):
+    stack = list(input_string)
+    
+    reversed_string = ''
+    while len(stack) > 0:
+        reversed_string += stack.pop()
+    return reversed_string
+
+print(reverse_string('HELLO')) # Outputs: OLLEH
+```
+
+```py
+def is_paren_balanced(paren_string):
+    stack = []
+    is_balanced = True
+    index = 0
+    opening_paren = {')': '(', ']' : '[', '}': '{'} # a matching opening parenthesis for every closing one
+    # Traversing all string characters
+    while index < len(paren_string) and is_balanced:
+        paren = paren_string[index]
+        if paren in "([{":
+            # We met an opening parenthesis, just putting it on stack
+            stack.append(paren)
+        else:
+            # We met a closing parenthesis
+            if not stack:
+                # The parenthesis is closing, but there are no items in the stack
+                is_balanced = False
+            else:
+                if stack[-1] != opening_paren[paren]:
+                    # The parenthesis on top of the stack doesn't match
+                    is_balanced = False
+                else:
+                    stack.pop()
+        index += 1
+    if stack:
+        # If after traversing all characters, there is something left, it's bad
+        is_balanced = False
+    return is_balanced
+
+print(is_paren_balanced("(())")) # Outputs: True
+print(is_paren_balanced("({[)}")) # Outputs: False
+```
+
+```py
+class CafeteriaStack:
+    def __init__(self):
+        self.stack = []
+    
+    def add_tray(self, tray_id):
+        self.stack.append(tray_id)
+    
+    def remove_tray(self):
+        if self.stack:  # Simplified check for an empty stack
+            return self.stack.pop()
+        else:
+            return "No more trays!"
+
+# Sample usage
+cafeteria = CafeteriaStack()
+cafeteria.add_tray("Tray_4")  # Adding a tray to the stack
+print(cafeteria.remove_tray())  # This should print "Tray_4"
+print(cafeteria.remove_tray()) # Prints: "No more trays!"
+```
+
+
+
+
+
+### Revisiting Software Design Patterns in Python
+
+### Refactoring Code for Readability and Maintainability
+
+### Backward Compatibility in Software Development
+
+### Interview Practice - Advanced Problem Solving
+
+
+## CodeSignal - Mastering design Patterns with Python
+
+### Revisiting OOP Concepts In Python
+
+#### Class, Attributes, Methods
+- class -- blueprint/template -- structure and behavior
+- attributes
+- methods
+
+```py
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def display(self):
+        print(f"Name: {self.name}, Age: {self.age}")
+
+    def update_age(self, new_age):
+        self.age = new_age
+
+if __name__ == "__main__":
+    person = Person("Alice", 30)  # Creating an object
+    person.display()              # Print the object's data: "Name: Alice, Age: 30"
+
+    person_copy = Person(person.name, person.age)  # Copying the object
+    person_copy.display()         # Print the copied object's data: "Name: Alice, Age: 30"
+```
+
+- class attributes and instance attributes
+
+#### Encapsulation, Name Mangling
+
+- Encapsulation -- internal state of object can be changed in controlled ways -- limiting direct access, forcing to use defined methods
+  - Each class its own state, behavior; changes in one class wouldn't affect others
+- `__variable` -- private, not truly -- name mangling -- has a way arround
+
+```py
+class Person:
+    def __init__(self, name, age):
+        self.__name = name
+        self.__age = age
+
+    def get_name(self):
+        return self.__name
+    
+    def get_age(self):
+        return self.__age
+    
+    def set_name(self, name):
+        self.__name = name
+
+    def set_age(self, age):
+        self.__age = age
+```
+
+
+#### Inheritance, Derived/Base class
+
+- Inheritance -- create new based on existing
+- derived, base; parent, child
+
+```py
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def display(self):
+        print(f"Name: {self.name}, Age: {self.age}")
+
+class Student(Person):
+    def __init__(self, name, age, major):
+        super().__init__(name, age)
+        self.major = major
+
+    def display(self):
+        super().display()
+        print(f"Major: {self.major}")
+
+if __name__ == "__main__":
+    student = Student("Bob", 25, "Computer Science")
+    student.display()
+    # Output:
+    # Name: Bob, Age: 25
+    # Major: Computer Science
+```
+
+- `class DerivedClass(BaseClass)` -- extends or overrides functionality
+- `super()`
+
+#### Polymorphism
+
+- calling derived classes methods through a base class reference
+- method overriding
+
+```py
+class Animal:
+    def speak(self):
+        print("Animal speaks")
+
+class Dog(Animal):
+    def speak(self):
+        print("Dog barks")
+
+if __name__ == "__main__":
+    generic_animal = Animal()
+    generic_animal.speak()  # Output: Animal speaks
+
+    dog = Dog()
+    dog.speak()  # Output: Dog barks
+```
+
+#### Abstract Classes and Methods
+
+- can't be instantiated directly. Derived class need to implement all abstract methods
+- `from abc import ABC, abstractmethod` -- Abstract Base Classes
+
+```py
+from abc import ABC, abstractmethod
+
+class Animal(ABC):
+    @abstractmethod
+    def sound(self):
+        pass
+```
+
+```py
+from abc import ABC, abstractmethod
+
+class Payment(ABC):
+    @abstractmethod
+    def process_payment(self, amount):
+        pass
+
+class CreditCardPayment(Payment):
+    def process_payment(self, amount):
+        return f"Processing credit card payment of {amount}"
+
+class PayPalPayment(Payment):
+    def process_payment(self, amount):
+        return f"Processing PayPal payment of {amount}"
+```
+
+### Creational Patterns In Python
+
+#### Singleton Pattern
+
+- only one instance. global point of access. 
+
+```py
+class Singleton:
+    __instance = None
+
+    @staticmethod
+    def getInstance():
+        if Singleton.__instance == None:
+            Singleton.__instance = Singleton()
+        return Singleton.__instance
+```
+
+```py
+class Logger:
+    __instance = None
+
+    @staticmethod
+    def getInstance():
+        if Logger.__instance == None:
+            Logger.__instance = Logger()
+        return Logger.__instance
+
+    def log(self, message):
+        print(message)
+
+if __name__ == "__main__":
+    logger = Logger.getInstance()
+    logger.log("Singleton pattern example with Logger.") # Output: Singleton pattern example with Logger.
+    another_logger = Logger.getInstance()
+    print(logger is another_logger)  # This will print True, as only one instance should exist
+```
+
+```py
+class Logger:
+    __instance = None
+
+    @staticmethod
+    def getInstance():
+        if Logger.__instance is None:
+            Logger.__instance = Logger()
+        return Logger.__instance
+        
+    def log(self, message):
+        print(message)
+
+if __name__ == "__main__":
+    logger = Logger.getInstance()
+    logger.log("Server started")
+```
+
+#### Factory Method Pattern
+
+- creating objects in a flexible way than direct instantiation. 
+- provides an interface to create object but allows subclasses to control type of object created. 
+- losse coupling -- eliminates need to specify exact class of object created
+- instantiation is handled by subclasses. 
+- promotes flexibility and scalability
+- factories produce objects, objects have behaviors
+
+```py
+from abc import ABC, abstractmethod
+
+class Document(ABC):
+    @abstractmethod
+    def open(self):
+        pass
+```
+
+```py
+class WordDocument(Document):
+    def open(self):
+        print("Opening Word document.")
+
+class ExcelDocument(Document):
+    def open(self):
+        print("Opening Excel document.")
+```
+
+```py
+class DocumentCreator(ABC):
+    @abstractmethod
+    def create_document(self):
+        pass
+```
+
+```py
+class WordDocumentCreator(DocumentCreator):
+    def create_document(self):
+        return WordDocument()
+
+class ExcelDocumentCreator(DocumentCreator):
+    def create_document(self):
+        return ExcelDocument()
+```
+
+```py
+if __name__ == "__main__":
+    creator = WordDocumentCreator()
+    doc = creator.create_document()
+    doc.open()
+
+    creator = ExcelDocumentCreator()
+    doc = creator.create_document()
+    doc.open()
+```
+
+### Structural Patterns in Python
+
+### Behavioral Patterns in Python
+
+### Applying Desing Patterns for a Smart House System in Python

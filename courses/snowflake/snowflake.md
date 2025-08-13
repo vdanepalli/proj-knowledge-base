@@ -3,6 +3,8 @@
 - [Snowflake](#snowflake)
   - [LinkedIn: End to End Real-World Data Engineering Project with Snowflake](#linkedin-end-to-end-real-world-data-engineering-project-with-snowflake)
   - [LinkedIn: Learning SnowflakeDB](#linkedin-learning-snowflakedb)
+  - [Snowflake Docummentation](#snowflake-docummentation)
+    - [Python Connector](#python-connector)
 
 
 ## LinkedIn: End to End Real-World Data Engineering Project with Snowflake
@@ -217,4 +219,13 @@
 <br/><br/>
 
 - Resource Monitor -- to monitor credit usage
+
+
+## Snowflake Docummentation
+
+### Python Connector 
+
+- `pip install snowflake-connector-python`
+- `pip install "snowflake-connector-python[pandas]"`
+- `import snowflake.connector`
 - 

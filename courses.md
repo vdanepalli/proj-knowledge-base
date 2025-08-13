@@ -6,15 +6,15 @@
 
 - ["13. Data"](#13-data-3-files)
 
-- ["30. Coursera Professional Certificates"](#30-coursera-professional-certificates-10-files)
+- ["30. Coursera Professional Certificates"](#30-coursera-professional-certificates-11-files)
 
 - ["61. FEMA Emergency Management Institute"](#61-fema-emergency-management-institute-1-file)
 
 - ["91. Fitness & Health"](#91-fitness-health-1-file)
 
-- ["92. Career Development"](#92-career-development-1-file)
+- ["92. Career Development"](#92-career-development-2-files)
 
-- [01. Data Structures & Algorithms](#01-data-structures-algorithms-3-files)
+- [01. Data Structures & Algorithms](#01-data-structures-algorithms-4-files)
 
 - [02. Python Programming](#02-python-programming-4-files)
 
@@ -79,13 +79,13 @@
 
 <br/><br/><br>
 
-## ["30. Coursera Professional Certificates" (10 files)](#-waypoints)
+## ["30. Coursera Professional Certificates" (11 files)](#-waypoints)
 
-### [1.](#30-coursera-professional-certificates-10-files) [ajsd.md](courses/coursera/ajsd.md) (No H1 Found)
+### [1.](#30-coursera-professional-certificates-11-files) [ajsd.md](courses/coursera/ajsd.md) (No H1 Found)
 
 <br/><br/><br>
 
-### [2.](#30-coursera-professional-certificates-10-files) [Deep Learning Data Engineering (4 sections)](courses/coursera/dlde.md#deep-learning-data-engineering)
+### [2.](#30-coursera-professional-certificates-11-files) [Deep Learning Data Engineering (4 sections)](courses/coursera/dlde.md#deep-learning-data-engineering)
 
 #### [2.1](#2-deep-learning-data-engineering-4-sections) [Introduction to Data Engineering](courses/coursera/dlde.md#introduction-to-data-engineering)
 
@@ -103,7 +103,7 @@
 
 <br/><br/><br>
 
-### [3.](#30-coursera-professional-certificates-10-files) [Fractal Data Science Professional Certificate 157h (8 sections)](courses/coursera/fds.md#fractal-data-science-professional-certificate-157h)
+### [3.](#30-coursera-professional-certificates-11-files) [Fractal Data Science Professional Certificate 157h (8 sections)](courses/coursera/fds.md#fractal-data-science-professional-certificate-157h)
 
 #### [3.1](#3-fractal-data-science-professional-certificate-157h-8-sections) [Structured Approach to Problem Solving 15h (3 modules)](courses/coursera/fds.md#structured-approach-to-problem-solving-15h)
 
@@ -148,69 +148,75 @@
 
 <br/><br/><br>
 
-### [4.](#30-coursera-professional-certificates-10-files) [Meta Back-End Developer Professional Certificate 232h (9 sections)](courses/coursera/mbed.md#meta-back-end-developer-professional-certificate-232h)
+### [4.](#30-coursera-professional-certificates-11-files) [Meta Android Developer Professional Certificate (1 section)](courses/coursera/mad.md#meta-android-developer-professional-certificate)
 
-#### [4.1](#4-meta-back-end-developer-professional-certificate-232h-9-sections) [Introduction to Back-end Development 19h](courses/coursera/mbed.md#introduction-to-back-end-development-19h)
-
-<br/>
-
-#### [4.2](#4-meta-back-end-developer-professional-certificate-232h-9-sections) [Programming in Python 45h](courses/coursera/mbed.md#programming-in-python-45h)
-
-<br/>
-
-#### [4.3](#4-meta-back-end-developer-professional-certificate-232h-9-sections) [Version Control - 18h](courses/coursera/mbed.md#version-control-18h)
-
-<br/>
-
-#### [4.4](#4-meta-back-end-developer-professional-certificate-232h-9-sections) [Introduction to Databases for Backend Development 27h](courses/coursera/mbed.md#introduction-to-databases-for-backend-development-27h)
-
-<br/>
-
-#### [4.5](#4-meta-back-end-developer-professional-certificate-232h-9-sections) [Django Web Framework 45h](courses/coursera/mbed.md#django-web-framework-45h)
-
-<br/>
-
-#### [4.6](#4-meta-back-end-developer-professional-certificate-232h-9-sections) [APIs 21h](courses/coursera/mbed.md#apis-21h)
-
-<br/>
-
-#### [4.7](#4-meta-back-end-developer-professional-certificate-232h-9-sections) [The FULL STACK 25h](courses/coursera/mbed.md#the-full-stack-25h)
-
-<br/>
-
-#### [4.8](#4-meta-back-end-developer-professional-certificate-232h-9-sections) [Back-End Developer Capstone 20h](courses/coursera/mbed.md#back-end-developer-capstone-20h)
-
-<br/>
-
-#### [4.9](#4-meta-back-end-developer-professional-certificate-232h-9-sections) [Coding Interview Preparation 12h](courses/coursera/mbed.md#coding-interview-preparation-12h)
+#### [4.1](#4-meta-android-developer-professional-certificate-1-section) [Introduction to Android Mobile Application Development](courses/coursera/mad.md#introduction-to-android-mobile-application-development)
 
 <br/><br/><br>
 
-### [5.](#30-coursera-professional-certificates-10-files) [Meta Data Analyst Professional Certificate 101h (5 sections)](courses/coursera/mda.md#meta-data-analyst-professional-certificate-101h)
+### [5.](#30-coursera-professional-certificates-11-files) [Meta Back-End Developer Professional Certificate 232h (9 sections)](courses/coursera/mbed.md#meta-back-end-developer-professional-certificate-232h)
 
-#### [5.1](#5-meta-data-analyst-professional-certificate-101h-5-sections) [Introduction to Data Analysis 17h](courses/coursera/mda.md#introduction-to-data-analysis-17h)
-
-<br/>
-
-#### [5.2](#5-meta-data-analyst-professional-certificate-101h-5-sections) [Data Analysis with Spreadsheets and SQL 26h](courses/coursera/mda.md#data-analysis-with-spreadsheets-and-sql-26h)
+#### [5.1](#5-meta-back-end-developer-professional-certificate-232h-9-sections) [Introduction to Back-end Development 19h](courses/coursera/mbed.md#introduction-to-back-end-development-19h)
 
 <br/>
 
-#### [5.3](#5-meta-data-analyst-professional-certificate-101h-5-sections) [Python Data Analytics 22h](courses/coursera/mda.md#python-data-analytics-22h)
+#### [5.2](#5-meta-back-end-developer-professional-certificate-232h-9-sections) [Programming in Python 45h](courses/coursera/mbed.md#programming-in-python-45h)
 
 <br/>
 
-#### [5.4](#5-meta-data-analyst-professional-certificate-101h-5-sections) [Statistics Foundations 21h](courses/coursera/mda.md#statistics-foundations-21h)
+#### [5.3](#5-meta-back-end-developer-professional-certificate-232h-9-sections) [Version Control - 18h](courses/coursera/mbed.md#version-control-18h)
 
 <br/>
 
-#### [5.5](#5-meta-data-analyst-professional-certificate-101h-5-sections) [Introduction to Data Management - 15h](courses/coursera/mda.md#introduction-to-data-management-15h)
+#### [5.4](#5-meta-back-end-developer-professional-certificate-232h-9-sections) [Introduction to Databases for Backend Development 27h](courses/coursera/mbed.md#introduction-to-databases-for-backend-development-27h)
+
+<br/>
+
+#### [5.5](#5-meta-back-end-developer-professional-certificate-232h-9-sections) [Django Web Framework 45h](courses/coursera/mbed.md#django-web-framework-45h)
+
+<br/>
+
+#### [5.6](#5-meta-back-end-developer-professional-certificate-232h-9-sections) [APIs 21h](courses/coursera/mbed.md#apis-21h)
+
+<br/>
+
+#### [5.7](#5-meta-back-end-developer-professional-certificate-232h-9-sections) [The FULL STACK 25h](courses/coursera/mbed.md#the-full-stack-25h)
+
+<br/>
+
+#### [5.8](#5-meta-back-end-developer-professional-certificate-232h-9-sections) [Back-End Developer Capstone 20h](courses/coursera/mbed.md#back-end-developer-capstone-20h)
+
+<br/>
+
+#### [5.9](#5-meta-back-end-developer-professional-certificate-232h-9-sections) [Coding Interview Preparation 12h](courses/coursera/mbed.md#coding-interview-preparation-12h)
 
 <br/><br/><br>
 
-### [6.](#30-coursera-professional-certificates-10-files) [Meta Database Engineer Professional Certificate 228h (9 sections)](courses/coursera/mde.md#meta-database-engineer-professional-certificate-228h)
+### [6.](#30-coursera-professional-certificates-11-files) [Meta Data Analyst Professional Certificate 101h (5 sections)](courses/coursera/mda.md#meta-data-analyst-professional-certificate-101h)
 
-#### [6.1](#6-meta-database-engineer-professional-certificate-228h-9-sections) [Introduction to Databases 27h (2 modules)](courses/coursera/mde.md#introduction-to-databases-27h)
+#### [6.1](#6-meta-data-analyst-professional-certificate-101h-5-sections) [Introduction to Data Analysis 17h](courses/coursera/mda.md#introduction-to-data-analysis-17h)
+
+<br/>
+
+#### [6.2](#6-meta-data-analyst-professional-certificate-101h-5-sections) [Data Analysis with Spreadsheets and SQL 26h](courses/coursera/mda.md#data-analysis-with-spreadsheets-and-sql-26h)
+
+<br/>
+
+#### [6.3](#6-meta-data-analyst-professional-certificate-101h-5-sections) [Python Data Analytics 22h](courses/coursera/mda.md#python-data-analytics-22h)
+
+<br/>
+
+#### [6.4](#6-meta-data-analyst-professional-certificate-101h-5-sections) [Statistics Foundations 21h](courses/coursera/mda.md#statistics-foundations-21h)
+
+<br/>
+
+#### [6.5](#6-meta-data-analyst-professional-certificate-101h-5-sections) [Introduction to Data Management - 15h](courses/coursera/mda.md#introduction-to-data-management-15h)
+
+<br/><br/><br>
+
+### [7.](#30-coursera-professional-certificates-11-files) [Meta Database Engineer Professional Certificate 228h (9 sections)](courses/coursera/mde.md#meta-database-engineer-professional-certificate-228h)
+
+#### [7.1](#7-meta-database-engineer-professional-certificate-228h-9-sections) [Introduction to Databases 27h (2 modules)](courses/coursera/mde.md#introduction-to-databases-27h)
 
 1. [Introduction to Databases](courses/coursera/mde.md#introduction-to-databases)
 
@@ -219,45 +225,45 @@
 
 <br/>
 
-#### [6.2](#6-meta-database-engineer-professional-certificate-228h-9-sections) [Version Control 18h](courses/coursera/mde.md#version-control-18h)
+#### [7.2](#7-meta-database-engineer-professional-certificate-228h-9-sections) [Version Control 18h](courses/coursera/mde.md#version-control-18h)
 
 <br/>
 
-#### [6.3](#6-meta-database-engineer-professional-certificate-228h-9-sections) [Database Structures and Management with MySQL 32h](courses/coursera/mde.md#database-structures-and-management-with-mysql-32h)
+#### [7.3](#7-meta-database-engineer-professional-certificate-228h-9-sections) [Database Structures and Management with MySQL 32h](courses/coursera/mde.md#database-structures-and-management-with-mysql-32h)
 
 <br/>
 
-#### [6.4](#6-meta-database-engineer-professional-certificate-228h-9-sections) [Advanced MySQL Topics 18h](courses/coursera/mde.md#advanced-mysql-topics-18h)
+#### [7.4](#7-meta-database-engineer-professional-certificate-228h-9-sections) [Advanced MySQL Topics 18h](courses/coursera/mde.md#advanced-mysql-topics-18h)
 
 <br/>
 
-#### [6.5](#6-meta-database-engineer-professional-certificate-228h-9-sections) [Programming in Python 45h](courses/coursera/mde.md#programming-in-python-45h)
+#### [7.5](#7-meta-database-engineer-professional-certificate-228h-9-sections) [Programming in Python 45h](courses/coursera/mde.md#programming-in-python-45h)
 
 <br/>
 
-#### [6.6](#6-meta-database-engineer-professional-certificate-228h-9-sections) [Database Clients 40h](courses/coursera/mde.md#database-clients-40h)
+#### [7.6](#7-meta-database-engineer-professional-certificate-228h-9-sections) [Database Clients 40h](courses/coursera/mde.md#database-clients-40h)
 
 <br/>
 
-#### [6.7](#6-meta-database-engineer-professional-certificate-228h-9-sections) [Advanced Data Modeling 18h](courses/coursera/mde.md#advanced-data-modeling-18h)
+#### [7.7](#7-meta-database-engineer-professional-certificate-228h-9-sections) [Advanced Data Modeling 18h](courses/coursera/mde.md#advanced-data-modeling-18h)
 
 <br/>
 
-#### [6.8](#6-meta-database-engineer-professional-certificate-228h-9-sections) [Database Engineer Capstone 18h](courses/coursera/mde.md#database-engineer-capstone-18h)
+#### [7.8](#7-meta-database-engineer-professional-certificate-228h-9-sections) [Database Engineer Capstone 18h](courses/coursera/mde.md#database-engineer-capstone-18h)
 
 <br/>
 
-#### [6.9](#6-meta-database-engineer-professional-certificate-228h-9-sections) [Coding Interview Preparation 12h](courses/coursera/mde.md#coding-interview-preparation-12h)
+#### [7.9](#7-meta-database-engineer-professional-certificate-228h-9-sections) [Coding Interview Preparation 12h](courses/coursera/mde.md#coding-interview-preparation-12h)
 
 <br/><br/><br>
 
-### [7.](#30-coursera-professional-certificates-10-files) [Microsoft Power BI Data Analyst 157h (8 sections)](courses/coursera/mpbida.md#microsoft-power-bi-data-analyst-157h)
+### [8.](#30-coursera-professional-certificates-11-files) [Microsoft Power BI Data Analyst 157h (8 sections)](courses/coursera/mpbida.md#microsoft-power-bi-data-analyst-157h)
 
-#### [7.1](#7-microsoft-power-bi-data-analyst-157h-8-sections) [Preparing Data for Analysis with Microsoft Excel 19h](courses/coursera/mpbida.md#preparing-data-for-analysis-with-microsoft-excel-19h)
+#### [8.1](#8-microsoft-power-bi-data-analyst-157h-8-sections) [Preparing Data for Analysis with Microsoft Excel 19h](courses/coursera/mpbida.md#preparing-data-for-analysis-with-microsoft-excel-19h)
 
 <br/>
 
-#### [7.2](#7-microsoft-power-bi-data-analyst-157h-8-sections) [Harness the power of Data with Power BI 17h (2 modules)](courses/coursera/mpbida.md#harness-the-power-of-data-with-power-bi-17h)
+#### [8.2](#8-microsoft-power-bi-data-analyst-157h-8-sections) [Harness the power of Data with Power BI 17h (2 modules)](courses/coursera/mpbida.md#harness-the-power-of-data-with-power-bi-17h)
 
 1. [Module 1](courses/coursera/mpbida.md#module-1)
 
@@ -266,81 +272,88 @@
 
 <br/>
 
-#### [7.3](#7-microsoft-power-bi-data-analyst-157h-8-sections) [Extract, Transform and Load Data in Power BI 20h](courses/coursera/mpbida.md#extract-transform-and-load-data-in-power-bi-20h)
+#### [8.3](#8-microsoft-power-bi-data-analyst-157h-8-sections) [Extract, Transform and Load Data in Power BI 20h](courses/coursera/mpbida.md#extract-transform-and-load-data-in-power-bi-20h)
 
 <br/>
 
-#### [7.4](#7-microsoft-power-bi-data-analyst-157h-8-sections) [Data Modeling in Power BI 24h](courses/coursera/mpbida.md#data-modeling-in-power-bi-24h)
+#### [8.4](#8-microsoft-power-bi-data-analyst-157h-8-sections) [Data Modeling in Power BI 24h](courses/coursera/mpbida.md#data-modeling-in-power-bi-24h)
 
 <br/>
 
-#### [7.5](#7-microsoft-power-bi-data-analyst-157h-8-sections) [Data Analysis and Visualization with Power BI 29h](courses/coursera/mpbida.md#data-analysis-and-visualization-with-power-bi-29h)
+#### [8.5](#8-microsoft-power-bi-data-analyst-157h-8-sections) [Data Analysis and Visualization with Power BI 29h](courses/coursera/mpbida.md#data-analysis-and-visualization-with-power-bi-29h)
 
 <br/>
 
-#### [7.6](#7-microsoft-power-bi-data-analyst-157h-8-sections) [Creative Designing in Power BI 20h](courses/coursera/mpbida.md#creative-designing-in-power-bi-20h)
+#### [8.6](#8-microsoft-power-bi-data-analyst-157h-8-sections) [Creative Designing in Power BI 20h](courses/coursera/mpbida.md#creative-designing-in-power-bi-20h)
 
 <br/>
 
-#### [7.7](#7-microsoft-power-bi-data-analyst-157h-8-sections) [Deploy and Maintain Power BI Assets and Capstone Project 25h](courses/coursera/mpbida.md#deploy-and-maintain-power-bi-assets-and-capstone-project-25h)
+#### [8.7](#8-microsoft-power-bi-data-analyst-157h-8-sections) [Deploy and Maintain Power BI Assets and Capstone Project 25h](courses/coursera/mpbida.md#deploy-and-maintain-power-bi-assets-and-capstone-project-25h)
 
 <br/>
 
-#### [7.8](#7-microsoft-power-bi-data-analyst-157h-8-sections) [Microsoft PL-300 Exam Preparation and Practice 38h](courses/coursera/mpbida.md#microsoft-pl-300-exam-preparation-and-practice-38h)
+#### [8.8](#8-microsoft-power-bi-data-analyst-157h-8-sections) [Microsoft PL-300 Exam Preparation and Practice 38h](courses/coursera/mpbida.md#microsoft-pl-300-exam-preparation-and-practice-38h)
 
 <br/><br/><br>
 
-### [8.](#30-coursera-professional-certificates-10-files) [Microsoft Python Development Professional Certificate 132h (6 sections)](courses/coursera/mpd.md#microsoft-python-development-professional-certificate-132h)
+### [9.](#30-coursera-professional-certificates-11-files) [Microsoft Python Development Professional Certificate 132h (6 sections)](courses/coursera/mpd.md#microsoft-python-development-professional-certificate-132h)
 
-#### [8.1](#8-microsoft-python-development-professional-certificate-132h-6-sections) [Python Programming Fundamentals 24h](courses/coursera/mpd.md#python-programming-fundamentals-24h)
-
-<br/>
-
-#### [8.2](#8-microsoft-python-development-professional-certificate-132h-6-sections) [Data Analysis and Visualization with Python 20h](courses/coursera/mpd.md#data-analysis-and-visualization-with-python-20h)
+#### [9.1](#9-microsoft-python-development-professional-certificate-132h-6-sections) [Python Programming Fundamentals 24h](courses/coursera/mpd.md#python-programming-fundamentals-24h)
 
 <br/>
 
-#### [8.3](#8-microsoft-python-development-professional-certificate-132h-6-sections) [Automation and Scripting with Python 26h](courses/coursera/mpd.md#automation-and-scripting-with-python-26h)
+#### [9.2](#9-microsoft-python-development-professional-certificate-132h-6-sections) [Data Analysis and Visualization with Python 20h](courses/coursera/mpd.md#data-analysis-and-visualization-with-python-20h)
 
 <br/>
 
-#### [8.4](#8-microsoft-python-development-professional-certificate-132h-6-sections) [Web Development with Python 22h](courses/coursera/mpd.md#web-development-with-python-22h)
+#### [9.3](#9-microsoft-python-development-professional-certificate-132h-6-sections) [Automation and Scripting with Python 26h](courses/coursera/mpd.md#automation-and-scripting-with-python-26h)
 
 <br/>
 
-#### [8.5](#8-microsoft-python-development-professional-certificate-132h-6-sections) [Advanced Python Development Techniques 21h](courses/coursera/mpd.md#advanced-python-development-techniques-21h)
+#### [9.4](#9-microsoft-python-development-professional-certificate-132h-6-sections) [Web Development with Python 22h](courses/coursera/mpd.md#web-development-with-python-22h)
 
 <br/>
 
-#### [8.6](#8-microsoft-python-development-professional-certificate-132h-6-sections) [Project Development in Python 19h](courses/coursera/mpd.md#project-development-in-python-19h)
+#### [9.5](#9-microsoft-python-development-professional-certificate-132h-6-sections) [Advanced Python Development Techniques 21h](courses/coursera/mpd.md#advanced-python-development-techniques-21h)
+
+<br/>
+
+#### [9.6](#9-microsoft-python-development-professional-certificate-132h-6-sections) [Project Development in Python 19h](courses/coursera/mpd.md#project-development-in-python-19h)
 
 <br/><br/><br>
 
-### [9.](#30-coursera-professional-certificates-10-files) [Snowflake Data Engineering (3 sections)](courses/coursera/sde.md#snowflake-data-engineering)
+### [10.](#30-coursera-professional-certificates-11-files) [Snowflake Data Engineering (3 sections)](courses/coursera/sde.md#snowflake-data-engineering)
 
-#### [9.1](#9-snowflake-data-engineering-3-sections) [Intro to Snowflake for Devs, Data Scientists, Data Engineers](courses/coursera/sde.md#intro-to-snowflake-for-devs-data-scientists-data-engineers)
+#### [10.1](#10-snowflake-data-engineering-3-sections) [Intro to Snowflake for Devs, Data Scientists, Data Engineers (3 modules)](courses/coursera/sde.md#intro-to-snowflake-for-devs-data-scientists-data-engineers)
+
+1. [Intro](courses/coursera/sde.md#intro)
+
+2. [Intro to Snowfalke Features](courses/coursera/sde.md#intro-to-snowfalke-features)
+
+3. [Intro to Overview of Builder Workloads](courses/coursera/sde.md#intro-to-overview-of-builder-workloads)
+
 
 <br/>
 
-#### [9.2](#9-snowflake-data-engineering-3-sections) [Introduction to Modern Data Engineering With Snowflake](courses/coursera/sde.md#introduction-to-modern-data-engineering-with-snowflake)
+#### [10.2](#10-snowflake-data-engineering-3-sections) [Introduction to Modern Data Engineering With Snowflake](courses/coursera/sde.md#introduction-to-modern-data-engineering-with-snowflake)
 
 <br/>
 
-#### [9.3](#9-snowflake-data-engineering-3-sections) [Advanced Data Engineering with Snowflake](courses/coursera/sde.md#advanced-data-engineering-with-snowflake)
+#### [10.3](#10-snowflake-data-engineering-3-sections) [Advanced Data Engineering with Snowflake](courses/coursera/sde.md#advanced-data-engineering-with-snowflake)
 
 <br/><br/><br>
 
-### [10.](#30-coursera-professional-certificates-10-files) [UCB Essential Math Specialization (3 sections)](courses/coursera/ucbem.md#ucb-essential-math-specialization)
+### [11.](#30-coursera-professional-certificates-11-files) [UCB Essential Math Specialization (3 sections)](courses/coursera/ucbem.md#ucb-essential-math-specialization)
 
-#### [10.1](#10-ucb-essential-math-specialization-3-sections) [Algebra and Differential Calculus for Data Science](courses/coursera/ucbem.md#algebra-and-differential-calculus-for-data-science)
-
-<br/>
-
-#### [10.2](#10-ucb-essential-math-specialization-3-sections) [Essential Linear Algebra for Data Science](courses/coursera/ucbem.md#essential-linear-algebra-for-data-science)
+#### [11.1](#11-ucb-essential-math-specialization-3-sections) [Algebra and Differential Calculus for Data Science](courses/coursera/ucbem.md#algebra-and-differential-calculus-for-data-science)
 
 <br/>
 
-#### [10.3](#10-ucb-essential-math-specialization-3-sections) [Integral Calculus and Numerical Analysis for Data Science](courses/coursera/ucbem.md#integral-calculus-and-numerical-analysis-for-data-science)
+#### [11.2](#11-ucb-essential-math-specialization-3-sections) [Essential Linear Algebra for Data Science](courses/coursera/ucbem.md#essential-linear-algebra-for-data-science)
+
+<br/>
+
+#### [11.3](#11-ucb-essential-math-specialization-3-sections) [Integral Calculus and Numerical Analysis for Data Science](courses/coursera/ucbem.md#integral-calculus-and-numerical-analysis-for-data-science)
 
 <br/><br/><br>
 
@@ -370,25 +383,55 @@
 
 ## ["91. Fitness & Health" (1 file)](#-waypoints)
 
-### [1.](#91-fitness-health-1-file) [Fitness (1 section)](courses/fitness/fitness.md#fitness)
+### [1.](#91-fitness-health-1-file) [Fitness (2 sections)](courses/fitness/fitness.md#fitness)
 
-#### [1.1](#1-fitness-1-section) [Coursera: Getting Started as a Personal Fitness Trainer](courses/fitness/fitness.md#coursera-getting-started-as-a-personal-fitness-trainer)
+#### [1.1](#1-fitness-2-sections) [Coursera: Getting Started as a Personal Fitness Trainer](courses/fitness/fitness.md#coursera-getting-started-as-a-personal-fitness-trainer)
+
+<br/>
+
+#### [1.2](#1-fitness-2-sections) [Coursera: Science of Diet and Exercise (2 modules)](courses/fitness/fitness.md#coursera-science-of-diet-and-exercise)
+
+1. [NASM Metabolic Makeover](courses/fitness/fitness.md#nasm-metabolic-makeover)
+
+2. [Science of Fat Metabolism](courses/fitness/fitness.md#science-of-fat-metabolism)
+
 
 <br/><br/><br>
 
-## ["92. Career Development" (1 file)](#-waypoints)
+## ["92. Career Development" (2 files)](#-waypoints)
 
-### [1.](#92-career-development-1-file) [Career (1 section)](courses/career/career.md#career)
+### [1.](#92-career-development-2-files) [Career (1 section)](courses/career/career.md#career)
 
 #### [1.1](#1-career-1-section) [HP Life: Resume Writing and Job Interviewing](courses/career/career.md#hp-life-resume-writing-and-job-interviewing)
 
 <br/><br/><br>
 
-## [01. Data Structures & Algorithms (3 files)](#-waypoints)
+### [2.](#92-career-development-2-files) [Project Management (2 sections)](courses/career/management.md#project-management)
 
-### [1.](#01-data-structures-algorithms-3-files) [Data Structures and Algorithms (5 sections)](courses/dsa/dsa.md#data-structures-and-algorithms)
+#### [2.1](#2-project-management-2-sections) [Six Sigma Online: White Belt](courses/career/management.md#six-sigma-online-white-belt)
 
-#### [1.1](#1-data-structures-and-algorithms-5-sections) [Neetcode: Algorithms and Data Structures for Beginners (25h) (11 modules)](courses/dsa/dsa.md#neetcode-algorithms-and-data-structures-for-beginners-25h)
+<br/>
+
+#### [2.2](#2-project-management-2-sections) [Six Sgima White Belt Training](courses/career/management.md#six-sgima-white-belt-training)
+
+<br/><br/><br>
+
+## [01. Data Structures & Algorithms (4 files)](#-waypoints)
+
+### [1.](#01-data-structures-algorithms-4-files) [Coding Problems (1 section)](courses/dsa/codes.md#coding-problems)
+
+#### [1.1](#1-coding-problems-1-section) [Leetcode (2 modules)](courses/dsa/codes.md#leetcode)
+
+1. [Fundamentals](courses/dsa/codes.md#fundamentals)
+
+2. [Amazon](courses/dsa/codes.md#amazon)
+
+
+<br/><br/><br>
+
+### [2.](#01-data-structures-algorithms-4-files) [Data Structures and Algorithms (5 sections)](courses/dsa/dsa.md#data-structures-and-algorithms)
+
+#### [2.1](#2-data-structures-and-algorithms-5-sections) [Neetcode: Algorithms and Data Structures for Beginners (25h) (11 modules)](courses/dsa/dsa.md#neetcode-algorithms-and-data-structures-for-beginners-25h)
 
 1. [Arrays](courses/dsa/dsa.md#arrays)
 
@@ -419,7 +462,7 @@
 
 <br/>
 
-#### [1.2](#1-data-structures-and-algorithms-5-sections) [Neetcode: Advanced Algorithms (25h) (7 modules)](courses/dsa/dsa.md#neetcode-advanced-algorithms-25h)
+#### [2.2](#2-data-structures-and-algorithms-5-sections) [Neetcode: Advanced Algorithms (25h) (7 modules)](courses/dsa/dsa.md#neetcode-advanced-algorithms-25h)
 
 1. [Arrays](courses/dsa/dsa.md#arrays-1)
 
@@ -438,7 +481,7 @@
 
 <br/>
 
-#### [1.3](#1-data-structures-and-algorithms-5-sections) [Oreilly: Graph Data Structure (4 modules)](courses/dsa/dsa.md#oreilly-graph-data-structure)
+#### [2.3](#2-data-structures-and-algorithms-5-sections) [Oreilly: Graph Data Structure (4 modules)](courses/dsa/dsa.md#oreilly-graph-data-structure)
 
 1. [Introduction](courses/dsa/dsa.md#introduction)
 
@@ -451,7 +494,7 @@
 
 <br/>
 
-#### [1.4](#1-data-structures-and-algorithms-5-sections) [ZTM: Master Coding Interviews (19 modules)](courses/dsa/dsa.md#ztm-master-coding-interviews)
+#### [2.4](#2-data-structures-and-algorithms-5-sections) [ZTM: Master Coding Interviews (19 modules)](courses/dsa/dsa.md#ztm-master-coding-interviews)
 
 1. [Arrays: Two Sum (Easy)](courses/dsa/dsa.md#arrays-two-sum-easy)
 
@@ -494,7 +537,7 @@
 
 <br/>
 
-#### [1.5](#1-data-structures-and-algorithms-5-sections) [General: DSA (2 modules)](courses/dsa/dsa.md#general-dsa)
+#### [2.5](#2-data-structures-and-algorithms-5-sections) [General: DSA (2 modules)](courses/dsa/dsa.md#general-dsa)
 
 1. [Philosophy](courses/dsa/dsa.md#philosophy)
 
@@ -507,19 +550,19 @@
 
 <br/><br/><br>
 
-### [2.](#01-data-structures-algorithms-3-files) [Leetcode (2 sections)](courses/dsa/leetcode.md#leetcode)
+### [3.](#01-data-structures-algorithms-4-files) [Leetcode (2 sections)](courses/dsa/leetcode.md#leetcode)
 
-#### [2.1](#2-leetcode-2-sections) [Two Sum](courses/dsa/leetcode.md#two-sum)
+#### [3.1](#3-leetcode-2-sections) [Two Sum](courses/dsa/leetcode.md#two-sum)
 
 <br/>
 
-#### [2.2](#2-leetcode-2-sections) [Valid Parentheses](courses/dsa/leetcode.md#valid-parentheses)
+#### [3.2](#3-leetcode-2-sections) [Valid Parentheses](courses/dsa/leetcode.md#valid-parentheses)
 
 <br/><br/><br>
 
-### [3.](#01-data-structures-algorithms-3-files) [DSA Python (1 section)](courses/dsa/python.md#dsa-python)
+### [4.](#01-data-structures-algorithms-4-files) [DSA Python (4 sections)](courses/dsa/python.md#dsa-python)
 
-#### [3.1](#3-dsa-python-1-section) [CodeAcademy - DSA Python (9 modules)](courses/dsa/python.md#codeacademy-dsa-python)
+#### [4.1](#4-dsa-python-4-sections) [CodeAcademy - DSA Python (9 modules)](courses/dsa/python.md#codeacademy-dsa-python)
 
 1. [Introduction](courses/dsa/python.md#introduction)
 
@@ -540,6 +583,59 @@
 8. [Recursion](courses/dsa/python.md#recursion)
 
 9. [Asymptotic Notation](courses/dsa/python.md#asymptotic-notation)
+
+
+<br/>
+
+#### [4.2](#4-dsa-python-4-sections) [CodeSignal - Mastering Algroithms and Data Structures (2 modules)](courses/dsa/python.md#codesignal-mastering-algroithms-and-data-structures)
+
+1. [Hashing, Dictionaries, Sets](courses/dsa/python.md#hashing-dictionaries-sets)
+
+2. [Unraveling Recursion through Classic Problems](courses/dsa/python.md#unraveling-recursion-through-classic-problems)
+
+
+<br/>
+
+#### [4.3](#4-dsa-python-4-sections) [CodeSignal - Advanced Interview Prep for Senior Engineers in Python (5 modules)](courses/dsa/python.md#codesignal-advanced-interview-prep-for-senior-engineers-in-python)
+
+1. [Advanced Built-In Data Structures and their Usage](courses/dsa/python.md#advanced-built-in-data-structures-and-their-usage)
+
+2. [Revisiting Software Design Patterns in Python](courses/dsa/python.md#revisiting-software-design-patterns-in-python)
+
+3. [Refactoring Code for Readability and Maintainability](courses/dsa/python.md#refactoring-code-for-readability-and-maintainability)
+
+4. [Backward Compatibility in Software Development](courses/dsa/python.md#backward-compatibility-in-software-development)
+
+5. [Interview Practice - Advanced Problem Solving](courses/dsa/python.md#interview-practice-advanced-problem-solving)
+
+
+<br/>
+
+#### [4.4](#4-dsa-python-4-sections) [CodeSignal - Mastering design Patterns with Python (5 modules)](courses/dsa/python.md#codesignal-mastering-design-patterns-with-python)
+
+1. [Revisiting OOP Concepts In Python (5 lessons)](courses/dsa/python.md#revisiting-oop-concepts-in-python)
+
+    1. [Class, Attributes, Methods](courses/dsa/python.md#class-attributes-methods)
+
+    2. [Encapsulation, Name Mangling](courses/dsa/python.md#encapsulation-name-mangling)
+
+    3. [Inheritance, Derived/Base class](courses/dsa/python.md#inheritance-derivedbase-class)
+
+    4. [Polymorphism](courses/dsa/python.md#polymorphism)
+
+    5. [Abstract Classes and Methods](courses/dsa/python.md#abstract-classes-and-methods)
+
+2. [Creational Patterns In Python (2 lessons)](courses/dsa/python.md#creational-patterns-in-python)
+
+    1. [Singleton Pattern](courses/dsa/python.md#singleton-pattern)
+
+    2. [Factory Method Pattern](courses/dsa/python.md#factory-method-pattern)
+
+3. [Structural Patterns in Python](courses/dsa/python.md#structural-patterns-in-python)
+
+4. [Behavioral Patterns in Python](courses/dsa/python.md#behavioral-patterns-in-python)
+
+5. [Applying Desing Patterns for a Smart House System in Python](courses/dsa/python.md#applying-desing-patterns-for-a-smart-house-system-in-python)
 
 
 <br/><br/><br>
@@ -1073,13 +1169,20 @@
 
 ## [20. Snowflake Data Cloud (1 file)](#-waypoints)
 
-### [1.](#20-snowflake-data-cloud-1-file) [Snowflake (2 sections)](courses/snowflake/snowflake.md#snowflake)
+### [1.](#20-snowflake-data-cloud-1-file) [Snowflake (3 sections)](courses/snowflake/snowflake.md#snowflake)
 
-#### [1.1](#1-snowflake-2-sections) [LinkedIn: End to End Real-World Data Engineering Project with Snowflake](courses/snowflake/snowflake.md#linkedin-end-to-end-real-world-data-engineering-project-with-snowflake)
+#### [1.1](#1-snowflake-3-sections) [LinkedIn: End to End Real-World Data Engineering Project with Snowflake](courses/snowflake/snowflake.md#linkedin-end-to-end-real-world-data-engineering-project-with-snowflake)
 
 <br/>
 
-#### [1.2](#1-snowflake-2-sections) [LinkedIn: Learning SnowflakeDB](courses/snowflake/snowflake.md#linkedin-learning-snowflakedb)
+#### [1.2](#1-snowflake-3-sections) [LinkedIn: Learning SnowflakeDB](courses/snowflake/snowflake.md#linkedin-learning-snowflakedb)
+
+<br/>
+
+#### [1.3](#1-snowflake-3-sections) [Snowflake Docummentation (1 module)](courses/snowflake/snowflake.md#snowflake-docummentation)
+
+1. [Python Connector](courses/snowflake/snowflake.md#python-connector)
+
 
 <br/><br/><br>
 
